@@ -3,8 +3,8 @@
 class AddThis extends DataExtension {
 
   static $db = array(
-    "AddThisPubKEY"        => "Varchar(200)",
-    'AddThisStyle'         => "Varchar",
+    "AddThisPubKEY"        => "Varchar",
+    'AddThisStyle'         => "Varchar(200)",
     "AddThisHeader"        => "Varchar",
     "AddThisFacebookBtn"   => "Varchar",
     "AddThisTwitterBtn"    => "Varchar",
